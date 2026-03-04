@@ -68,3 +68,22 @@ fs.unlink("hello.txt"(file ka naam), functyion(err)){
     else console.log("removerd);
 }
 
+- se file se jo file ka naam denge wah delete ho jayega.
+
+## rmdir
+- ye apko balalnk folder hatane me madat krta hh agr us folder me kuch hh to  nhi ht payega 
+  ## documentation hmmesa padhna aur usse tm different - different fs link try krna 
+
+
+
+### http
+- ek protocol hh ya rule hh jisko follow kre bina internet pr nahi kuch bhej skte ho aur na hi kuch manga skte ho  agar hmm http ke protocol ko nhi follow karenge to internet nhi use krskte hh
+- server create kr rhe hhh 
+- const http = require('http');
+
+const server = http.createServer(function(req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World!');
+}); 
+server.listen(3000);
+agar tmko check krna hh to chrome pr jao  likho localhost:3000  
